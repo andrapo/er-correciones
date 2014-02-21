@@ -15,7 +15,7 @@ p { margin: 0 0 20px 0;font: 13px/14px "HelveticaNeue", "Helvetica Neue", Helvet
 color: white ; text-align: right}
 h1 { font-size: 18px; line-height: 25px; font-family: 'trebuchet_msregular'; color: white; text-align: right}
 strong {font-size: 22px; line-height: 25px; margin-bottom: 10px; font-family: 'trebuchet_msregular'; color: #a8bbcb; padding-left: 100px }
-.menu{ background: url(../images/pattern.png);width: 230px; height: 710px; position: absolute; margin-top:-90px; z-index: 99999}
+.menu{ background: url(../images/pattern.png);width: 230px; height: 640px; position: absolute; margin-top:-90px; z-index: 99999}
 .menu img{margin: 0 auto;display: block;padding-top: 30px}
 .menu ul{list-style: none; margin: 40px 30px}
 .menu ul li{margin-top:10px}
@@ -28,6 +28,8 @@ a{text-decoration: none}
 .indexf{background: url(../images/fi.jpg);height: 800px;margin-left: 230px}
 .ribbonf{background: url(../images/ribbonf.jpg);height: 680px;margin-left: 230px}
 .foot{background: url(../images/footer.jpg); height: 98px}
+.cintas{background: url(../images/cinf.jpg); height: 570px;margin-left: 230px}
+
 .info h2{font-size: 28px; margin-top: 20px}
 .info p{text-align: left; margin-top: -5px; font-weight: 500}
 h2 { font-size: 30px; line-height: 30px; margin-bottom: 10px; font-family: 'trebuchet_msregular'; color: #a8bbcb}
@@ -131,11 +133,13 @@ font: 'trebuchet_msregular'
 
   .line{background: white; width: 100%;height: 40px; box-shadow: inset 0px 5px 12px rgba(0,0,0,0.6)}
   .esp{margin: 10px 0 0 0px; background: white; border-radius: 12px;height: 275px;box-shadow: 1px 4px 2px rgba(0,0,0,0.5); width: 330px; float: left; display: inline; margin-left: 10px; margin-right: 10px }
- .esp h1{color: black; font-size: 16px;line-height: 110%;text-align: left; margin-top: 10px; margin-bottom: 5px}
- .esp p{font-size: 11px;line-height: 110%; color: black; text-align: left; margin-bottom: 5px}
- .esp img{padding-top: 15px}
- .esp ul li{ font-size: 11px; color: black; list-style: inside disc; font-family: 'trebuchet_msregular'}
-.esp li{margin-bottom: 2px; line-height: 110%}
-.indimgbot{zoom:70%;margin:10px 80px; display: inline-block;}
-
-
+ .esp h1, .esp2 h1{color: black; font-size: 16px;line-height: 110%;text-align: left; margin-top: 10px; margin-bottom: 5px}
+ .esp p, .esp2 p{font-size: 11px;line-height: 110%; color: black; text-align: left; margin-bottom: 5px}
+ .esp img, .esp2 img{padding-top: 15px}
+ .esp ul li,.esp2 ul li{ font-size: 11px; color: black; list-style: inside disc; font-family: 'trebuchet_msregular'}
+.esp li, .esp2 li{margin-bottom: 2px; line-height: 110%}
+.indimgbot{zoom:70%;margin:30px 80px; display: inline-block;}
+.esp2{margin: 10px 0 0 150px; background: white; border-radius: 12px;height: 150px;box-shadow: 1px 4px 2px rgba(0,0,0,0.5); width: 330px; float: left; display: inline; margin-left: 10px; margin-right: 10px; padding-left }
+.black{ background-color: black; border-radius: 10px 0px 0px 10px; height: 40px; width: 400px; margin-top: 30px}
+.black h1{padding: 7px 10px; text-align: left; }
+.b{margin:30px 0 0 300px;}
