@@ -31,7 +31,10 @@ a{text-decoration: none}
 .cintas{background: url(../images/cinf.jpg); height: 570px;margin-left: 230px}
 .codigo{background: url(../images/codigof.jpg); height: 720px;margin-left: 230px}
 .contacto{background: url(../images/contacto.jpg); height: 560px;margin-left: 230px}
-
+.empresa{background: url(../images/empresa.jpg); height: 560px;margin-left: 230px}
+.empresa h1{margin: 20px 0px 0 50px ;float: left}
+.em{padding-top: 250px; width: 600px}
+.empresa p{margin: 40px 0px 0 50px; text-align: left}
 .con form{margin-left: 100px;padding-top: 50px}
 .con{background: rgba(0,0,0,0.7); margin-left: 20px;margin-top: 50px;height:450px}
 .info h2{font-size: 28px; margin-top: 20px}
