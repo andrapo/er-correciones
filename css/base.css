@@ -1,0 +1,131 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+body{background: #373b44;width: 100%; height: 100%}
+.az{background: #1d6fa1;height: 100px}
+.az2{background: #1d6fa1;height: 40px; border-radius: 0px 0px 20px 20px; position: absolute; margin-left: 50%; margin-top: 20px; width: 370px; z-index: 9999}
+.az2 ul li{list-style: none; display: inline; margin: 10px; font-family: 'trebuchet_msregular'; color: white; font-size: 15px}
+.az2 ul {padding: 10px 20px}
+.az2 ul li:hover{color: #a8bbcb}
+p { margin: 0 0 20px 0;font: 13px/14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: white ; text-align: right}
+h1 { font-size: 18px; line-height: 25px; font-family: 'trebuchet_msregular'; color: white; text-align: right}
+strong {font-size: 22px; line-height: 25px; margin-bottom: 10px; font-family: 'trebuchet_msregular'; color: #a8bbcb; padding-left: 100px }
+.menu{ background: url(../images/pattern.png);width: 230px; height: 710px; position: absolute; margin-top:-90px; z-index: 99999}
+.menu img{margin: 0 auto;display: block;padding-top: 30px}
+.menu ul{list-style: none; margin: 40px 30px}
+.menu ul li{margin-top:10px}
+.menu h3{color: #a8bbcb; font-size: 15px; line-height: 19px; margin-bottom: 3px; font-family: 'trebuchet_msregular'; color: white}
+.menu h3:hover{color: #a8bbcb}
+a{text-decoration: none}
+.container2{ position: relative; width: 960px; margin: 0 auto; padding:0 0 0 0px; }
+.container2 .four.columns { width: 200px; }
+.container2 .column,.container2 .columns{ float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+.indexf{background: url(../images/fi.jpg);height: 800px;margin-left: 230px}
+.foot{background: url(../images/footer.jpg); height: 98px}
+.info h2{font-size: 28px; margin-top: 20px}
+.info p{text-align: left; margin-top: -5px; font-weight: 500}
+h2 { font-size: 30px; line-height: 30px; margin-bottom: 10px; font-family: 'trebuchet_msregular'; color: #a8bbcb}
+  h3 { font-size: 18px; line-height: 19px; margin-bottom: 8px; font-family: 'trebuchet_msregular'; color: white}
+  h4 { font-size: 12px; line-height: 30px; margin-bottom: 4px; font-family: 'trebuchet_msregular';color: white}
+/* Index
+/* Header slider
+================================================== */
+.cbp-qtrotator {
+	position: relative;
+	margin: 0 auto ;
+	padding-top: 20px;
+	width: 700px;
+	min-height: 10px;
+	border: none;
+}
+
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 60px;
+	padding: 0 0;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+		border: none
+
+}
+
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;	border: none;
+	min-height: 60px;
+
+}
+
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+		border: none
+	min-height: 60px;
+
+}
+
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+		border: none
+
+}
+
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+/* Imagenes
+================================================== */
+.inimg{padding-left: 20px; padding-top: 50px}
+  .imgteaser { /* es el bloque general */
+    position: relative;
+    overflow: hidden;
+  }
+  .imgteaser img{       border-radius: 30px;
+}
+  .imgteaser a {text-decoration: none;}
+  .imgteaser a:hover {cursor: pointer;}
+  .imgteaser a img {
+    border: none;
+    margin: 0;
+    padding: 10px;
+    width: 195px;
+  }
+    .imgteaser a .desc {display: none;}
+  .imgteaser a:hover .more {visibility: hidden;}
+  .imgteaser a:hover .desc {
+    background-color:#000000;
+    display: block;
+    margin: 0;
+    width: 175px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    filter:alpha(opacity=75);
+    opacity:.75;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    height: 20px;
+border-radius: 0px 0px 20px 20px
+  }
+  .imgteaser a:hover .desc h4 { /* el texto LEER MAS */
+    display: block;
+    font-size: 13px;
+    padding-right: 8px;
+text-align: right;
+font: 'trebuchet_msregular'
+  }
+  .imgteaser h4{font-size: 12px;font: 'trebuchet_msregular'}
+
+  .line{background: white; width: 100%;height: 40px; box-shadow: inset 0px 5px 12px rgba(0,0,0,0.6)}
