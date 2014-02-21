@@ -26,9 +26,10 @@ a{text-decoration: none}
 .container2 .four.columns { width: 200px; }
 .container2 .column,.container2 .columns{ float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .indexf{background: url(../images/fi.jpg);height: 800px;margin-left: 230px}
-.ribbonf{background: url(../images/ribbonf.jpg);height: 680px;margin-left: 230px}
+.ribbonf{background: url(../images/ribbonf.jpg);height: 720px;margin-left: 230px}
 .foot{background: url(../images/footer.jpg); height: 98px}
 .cintas{background: url(../images/cinf.jpg); height: 570px;margin-left: 230px}
+.codigo{background: url(../images/codigof.jpg); height: 720px;margin-left: 230px}
 
 .info h2{font-size: 28px; margin-top: 20px}
 .info p{text-align: left; margin-top: -5px; font-weight: 500}
