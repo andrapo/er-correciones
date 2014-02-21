@@ -26,6 +26,7 @@ a{text-decoration: none}
 .container2 .four.columns { width: 200px; }
 .container2 .column,.container2 .columns{ float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .indexf{background: url(../images/fi.jpg);height: 800px;margin-left: 230px}
+.ribbonf{background: url(../images/ribbonf.jpg);height: 680px;margin-left: 230px}
 .foot{background: url(../images/footer.jpg); height: 98px}
 .info h2{font-size: 28px; margin-top: 20px}
 .info p{text-align: left; margin-top: -5px; font-weight: 500}
@@ -129,3 +130,12 @@ font: 'trebuchet_msregular'
   .imgteaser h4{font-size: 12px;font: 'trebuchet_msregular'}
 
   .line{background: white; width: 100%;height: 40px; box-shadow: inset 0px 5px 12px rgba(0,0,0,0.6)}
+  .esp{margin: 10px 0 0 0px; background: white; border-radius: 12px;height: 275px;box-shadow: 1px 4px 2px rgba(0,0,0,0.5); width: 330px; float: left; display: inline; margin-left: 10px; margin-right: 10px }
+ .esp h1{color: black; font-size: 16px;line-height: 110%;text-align: left; margin-top: 10px; margin-bottom: 5px}
+ .esp p{font-size: 11px;line-height: 110%; color: black; text-align: left; margin-bottom: 5px}
+ .esp img{padding-top: 15px}
+ .esp ul li{ font-size: 11px; color: black; list-style: inside disc; font-family: 'trebuchet_msregular'}
+.esp li{margin-bottom: 2px; line-height: 110%}
+.indimgbot{zoom:70%;margin:10px 80px; display: inline-block;}
+
+
