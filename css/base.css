@@ -32,6 +32,10 @@ a{text-decoration: none}
 .codigo{background: url(../images/codigof.jpg); height: 720px;margin-left: 230px}
 .contacto{background: url(../images/contacto.jpg); height: 560px;margin-left: 230px}
 .empresa{background: url(../images/empresa.jpg); height: 560px;margin-left: 230px}
+.etad{background: url(../images/codigof.jpg); height: 960px;margin-left: 230px}
+.basc{background: url(../images/basculaf.jpg); height: 530px;margin-left: 230px}
+.ropa{background: url(../images/ropaf.jpg); height: 530px;margin-left: 230px}
+
 .empresa h1{margin: 20px 0px 0 50px ;float: left}
 .em{padding-top: 250px; width: 600px}
 .empresa p{margin: 40px 0px 0 50px; text-align: left}
@@ -141,7 +145,7 @@ font: 'trebuchet_msregular'
   .line{background: white; width: 100%;height: 40px; box-shadow: inset 0px 5px 12px rgba(0,0,0,0.6)}
   .esp{margin: 10px 0 0 0px; background: white; border-radius: 12px;height: 275px;box-shadow: 1px 4px 2px rgba(0,0,0,0.5); width: 330px; float: left; display: inline; margin-left: 10px; margin-right: 10px }
  .esp h1, .esp2 h1{color: black; font-size: 16px;line-height: 110%;text-align: left; margin-top: 10px; margin-bottom: 5px}
- .esp p, .esp2 p{font-size: 11px;line-height: 110%; color: black; text-align: left; margin-bottom: 5px}
+ .esp p, .esp2 p{font-size: 11px;line-height: 110%; color: black; text-align: left; margin-bottom: 5px;padding-right: 2px}
  .esp img, .esp2 img{padding-top: 15px}
  .esp ul li,.esp2 ul li{ font-size: 11px; color: black; list-style: inside disc; font-family: 'trebuchet_msregular'}
 .esp li, .esp2 li{margin-bottom: 2px; line-height: 110%}
