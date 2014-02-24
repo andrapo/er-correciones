@@ -33,6 +33,8 @@ a{text-decoration: none}
 .contacto{background: url(../images/contacto.jpg); height: 560px;margin-left: 230px}
 .empresa{background: url(../images/empresa.jpg); height: 560px;margin-left: 230px}
 .etad{background: url(../images/codigof.jpg); height: 960px;margin-left: 230px}
+.etiquetas{background: url(../images/etad.jpg); height: 660px;margin-left: 230px}
+
 .basc{background: url(../images/basculaf.jpg); height: 530px;margin-left: 230px}
 .ropa{background: url(../images/ropaf.jpg); height: 530px;margin-left: 230px}
 .impdig{background: url(../images/impf.jpg); height: 530px;margin-left: 230px}
@@ -47,6 +49,55 @@ a{text-decoration: none}
 h2 { font-size: 30px; line-height: 30px; margin-bottom: 10px; font-family: 'trebuchet_msregular'; color: #a8bbcb}
   h3 { font-size: 18px; line-height: 19px; margin-bottom: 8px; font-family: 'trebuchet_msregular'; color: white}
   h4 { font-size: 12px; line-height: 30px; margin-bottom: 4px; font-family: 'trebuchet_msregular';color: white}
+  .imgetiqueta { /* es el bloque general */
+    overflow: hidden;
+    position: relative;
+    width:310px;
+     background: white;
+      border-radius: 30px;
+      margin: 10px
+
+  }
+  .imgetiqueta img{         
+; border-radius: 30px;
+}
+  .imgetiqueta a {text-decoration: none;}
+  .imgetiqueta a:hover {cursor: pointer;}
+  .imgetiqueta a img { /* la imagen en si misma */
+
+    margin: 0;
+    padding: 10px; /* le ponemos un marco alrededor */
+    width: 290px; /* forzamos el tamaño de la imagen */
+  }
+    .imgetiqueta a .desc {display: none;}
+  .imgetiqueta a:hover .more {visibility: hidden;}
+  .imgetiqueta a:hover .desc { /* es el texto del caption en si mismo */
+    background-color:#000000; /* color de fondo */
+    display: block;
+    margin: 0px;
+    width: 270px; /* ocupará el mismo ancho de la imagen */
+    /* las propiedades del texto */
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    /* transparencia */
+    filter:alpha(opacity=75);
+    opacity:.75;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    /* lo posicionamos abajo y a la derecha sin importar la altura de la imagen */
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    height: 35px;
+border-radius: 0px 0px 20px 20px
+  }
+  .imgetiqueta a:hover .desc h4 { /* el texto LEER MAS */
+    display: block;
+    line-height: 110%;
+    font-size: 17px;
+    padding-right: 8px;
+text-align: center
+  }
 /* Index
 /* Header slider
 ================================================== */
